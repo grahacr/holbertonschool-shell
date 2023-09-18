@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | sort -u | ls -l
+cut -d /etc/passwd | sort -t | ls -l
