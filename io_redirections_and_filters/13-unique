@@ -1,2 +1,2 @@
 #!/bin/bash
-read $file | sort -w | uniq | grep -f
+cat | sort | uniq -u
