@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -s '[:space:]' '\n' < "$file"
+ls | sort | uniq | grep -f
