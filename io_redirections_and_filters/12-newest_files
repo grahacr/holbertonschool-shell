@@ -1,2 +1,2 @@
 #!/bin/bash
-find -fn 10 | sort
+find . file -n 10 | sort -r
