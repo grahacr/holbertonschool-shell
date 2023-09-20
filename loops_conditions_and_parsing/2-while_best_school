@@ -4,4 +4,4 @@ counter=0
 while [$counter -lt 10];
 	echo "Best School"
 	counter =$((counter=1))
-done
+done\n
