@@ -2,10 +2,11 @@
 # this script utilizing the while loop should display the time for 12 hours and 59 minutes, with hours ranging from 0 to 12 and minutes from 1 to 59.
 hour=0
 while [ $hour -le 12 ]; do
+	echo "$hour"
+
 	minute=1
 	while [ $minute -le 59 ]; do
-		echo $hour
-		echo $minute
+		echo "$minute"
 		minute=$((minute+1))
 	done
 	hour=$((hour+1))
