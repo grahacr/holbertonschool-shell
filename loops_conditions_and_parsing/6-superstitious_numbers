@@ -4,13 +4,16 @@ number=1
 while [ $number -le 20 ]; do
 	case $number in
 		4)
-			echo "$number bad luck from China"
+			echo "$number"
+			echo "bad luck from China"
 			;;
 		9)
-			echo "$number bad luck from Japan"
+			echo "$number"
+			echo "bad luck from Japan"
 			;;
 		17)
-			echo "$number bad luck from Italy"
+			echo "$number"
+			echo "bad luck from Italy"
 			;;
 		*)
 			echo "$number"
