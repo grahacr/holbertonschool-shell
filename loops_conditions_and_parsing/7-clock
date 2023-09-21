@@ -4,8 +4,8 @@ hour=0
 while [ $hour -le 12 ]; do
 	minute=1
 	while [ $minute -le 59 ]; do
-		printf "%02d\n" $hour
-		printf "%02d\n" $minute
+		echo $hour
+		echo $minute
 		minute=$((minute+1))
 	done
 	hour=$((hour+1))
